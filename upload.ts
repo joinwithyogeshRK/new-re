@@ -23,10 +23,10 @@ async function upload() {
 
     const REPO_URL = `https://${username}:${TOKEN}@github.com/${username}/${REPO}.git`;
 
-    // STEP 1: Create the repo if it doesn't exist
+    
     
 
-    // STEP 2: Initialize git
+    
     await git.init();
 
     // STEP 3: Ensure correct remote is set
